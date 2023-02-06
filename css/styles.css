@@ -1,215 +1,281 @@
 :root {
-    --main-color:#212121;
-    --secondary-color:#757575;
-    --brand-color:#2196F3;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --brand-color: #2196f3;
 }
-body{
-    font-family:'Roboto', sans-serif ;
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
 }
 
 .sub-title {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.88em;
-        letter-spacing: 0.03em;    
-        color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88em;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
 
-.photo-title{
-font-weight: 700;
-    font-size: 18px;
-    line-height: 2 em;
-    letter-spacing: 0.06em;
-    color: var(--main-color);
+.photo-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2 em;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
 }
 
 .portfolio-button:hover,
-.portfolio-button:focus{
-    background-color: var(--brand-color);
-    color: #FFFFFF;
+.portfolio-button:focus {
+  background-color: var(--brand-color);
+  color: #ffffff;
 }
 
 .portfolio-button {
-    background-color:#F5F4FA;
-    border: none;
+  background-color: #f5f4fa;
+  border: none;
   color: var(--main-color, #212121);
   padding: 6px 22px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline;
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.footer .phone:hover,
-.footer .phone:focus {
-    color: var(--brand-color);
+/*Nasz zespół -> Agencja*/
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188em;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
 }
 
-.footer .phone {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71em;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    cursor: pointer;
-    text-decoration: none;
-    } 
-
-.footer .mail:hover,
-.footer .mail:focus {
-    color: var(--brand-color);
-}
-.footer .mail {
-    font-weight: 171%;
-font-size: 14px;
-line-height: 1.71em;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-cursor: pointer;
-text-decoration: none;
+.name-desctiption {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188em;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
 
-.footer .adress-details:hover,
-.footer .adress-details:focus {
-    color: var(--brand-color);
+/*Czym się zajmujemy + zdjęcia -> Agencja*/
+
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167em;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
 }
 
-.footer .adress-details {
-    font-weight: 400;
-font-size: 14px;
-line-height: 1.71em;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-cursor: pointer;
-text-decoration: none;
+/*Lorem Ipsum -> Agencja*/
+
+.lorem-text-ul {
+  display: flex;
+  padding-top: 94px;
+
+  margin: 0;
 }
 
-
-.footer .brand-link-web {
-    color: var(--brand-color)
-}
-.footer .brand-link{
-font-weight: 700;
-font-size: 26px;
-line-height: 1.192em;
-color:#FFFFFF;
-cursor: pointer;
-text-decoration: none;
-
-}
-
-.footer{
-    background-color:#2F303A ;
-    
-}
-
-.name{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.188em;
-letter-spacing: 0.03em;
-
-color: var(--main-color);
-}
-
-.name-desctiption{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.188em;
-letter-spacing: 0.03em;
-color: var(--secondary-color);
-}
-
-.second-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.167em;
-text-align: center;
-letter-spacing: 0.03em;
-
-color:var(--main-color);
-}
-
-.text{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71em;
-letter-spacing: 0.03em;
-color: #757575;
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .text-heading {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.143em;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-color:var(--main-color);
-
-}
-.navbar a{
-    text-decoration: none;
+  color: var(--main-color);
 }
 
-.navbar .brand-link-web {
-    color: var(--brand-color)
-}
-.navbar .brand-link{
-    font-weight: 700;
-font-size: 26px;
-line-height: 1.192em;
-color: #000000;
-}
-.navbar .navigation a{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143em;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
-    cursor: pointer;
-    }
-.navbar .navigation a:hover,
-.navbar .navigation a:focus {
-color: var(--brand-color);}
+/*Sekcja-Efektywne-rozwiązania -> Agencja*/
 
-.navbar .contact-link {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.143em;
-        letter-spacing: 0.02em;
-        cursor: pointer;
-        color: var(--secondary-color)
-}
-.navbar .contact-link:hover,
-.navbar .contact-link:focus {
-color: var(--brand-color)
+.main-text-section {
+  width: 1200px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+text-align: center;
+  background: #2f303a;
+
 }
 
-.main-text{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36em;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    cursor: pointer;}
+.main-text {
+  padding-top: 200px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0;
+  
+}
 
-.main-text-button{
-    background-color: var(--brand-color);
-    border: none;
+.main-text-button {
+  background-color: var(--brand-color);
+  border: none;
   color: white;
   padding: 10px 42px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline;
   font-size: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin: 30px;
+  align-items: center;
 }
+
+/*NAWIGACJA*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  border-color: #ffffff;
+  height: 80px;
+  justify-content: space-between;
+  border: 1px solid #ececec;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar .brand-link-web {
+  color: var(--brand-color);
+}
+.navbar .brand-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192em;
+  color: #000000;
+  padding-left: 215px;
+}
+.navbar .navigation-ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navigation a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143em;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  cursor: pointer;
+  width: 254px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+.navbar .navigation a:hover,
+.navbar .navigation a:focus {
+  color: var(--brand-color);
+}
+
+.navigation-contact {
+  display: flex;
+}
+
+.navbar .contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143em;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+.navbar .contact-link:hover,
+.navbar .contact-link:focus {
+  color: var(--brand-color);
+}
+
+/*FOOTER*/
+
+.footer .phone:hover,
+.footer .phone:focus {
+  color: var(--brand-color);
+}
+
+.footer .phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer .mail:hover,
+.footer .mail:focus {
+  color: var(--brand-color);
+}
+.footer .mail {
+  font-weight: 171%;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer .adress-details:hover,
+.footer .adress-details:focus {
+  color: var(--brand-color);
+}
+
+.footer .adress-details {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer .brand-link-web {
+  color: var(--brand-color);
+}
+.footer .brand-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192em;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
 ul {
-    list-style-type:none ;
+  list-style-type: none;
 }
