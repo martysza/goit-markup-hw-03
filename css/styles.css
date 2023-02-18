@@ -11,9 +11,11 @@ body {
 }
 .container {
   width: 1200px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0px 15px;
 }
+
+/*Projekty - lista -> Portfolio*/ 
 
 .sub-title {
   font-weight: 400;
@@ -30,6 +32,16 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-color);
 }
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 34px ;
+}
+
+/*Menu Portfolio -> Portfolio*/
 
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -50,13 +62,26 @@ body {
   cursor: pointer;
 }
 
+.portfolio-menu-ul{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 94px ;
+}
+
+
 /*Nasz zespół -> Agencja*/
+
+.nasz-zespol-container{ 
+    background-color: #F5F4FA;
+}
+
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188em;
   letter-spacing: 0.03em;
-
+  margin-bottom: 0px;
   color: var(--main-color);
 }
 
@@ -66,6 +91,27 @@ body {
   line-height: 1.188em;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-top: 0;
+}
+
+.nasz-zespol-ul {
+display: flex;
+gap: 30px;
+padding-bottom: 94px;
+padding-left: 0px;
+}
+
+.zespol-podpis {
+    height: 108px;
+    width: 270px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.img-team {
+    display: block;
 }
 
 /*Czym się zajmujemy + zdjęcia -> Agencja*/
@@ -78,19 +124,23 @@ body {
   letter-spacing: 0.03em;
 margin-bottom: 50px;
   color: var(--main-color);
+  padding-top: 94px;
+}
+
+.img-second-title {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 94px;
 }
 
 /*Lorem Ipsum -> Agencja*/
 
 .lorem-text-ul {
   display: flex;
+  margin: 0 auto;
+  gap: 30px;
   padding-top: 94px;
-  padding-bottom: 94px;
-  margin: 0;
-}
-
-.lorem-text-li {
-  margin-right: 30px;
+  padding-left: 0px;
 }
 
 .text {
@@ -116,7 +166,6 @@ margin-bottom: 50px;
 /*Sekcja-Efektywne-rozwiązania -> Agencja*/
 
 .main-text-section {
-  width: 1200px;
   height: 600px;
   left: 0px;
   top: 80px;
@@ -161,7 +210,7 @@ margin-bottom: 50px;
   align-items: center;
   border-color: #ffffff;
   height: 80px;
-  justify-content: flex-start;
+  justify-content:space-between;
   border: 1px solid #ececec;
 }
 
@@ -178,15 +227,12 @@ margin-bottom: 50px;
   font-size: 26px;
   line-height: 1.192em;
   color: #000000;
-  padding-left: 215px;
+  
 }
 .navbar .navigation-ul {
   display: flex;
   align-items: center;
-}
-
-.navigation-li {
-  margin: 32px 46px;
+  gap: 46px;
 }
 
 .navbar .navigation a {
@@ -209,7 +255,7 @@ margin-bottom: 50px;
 
 .navigation-contact {
   display: flex;
-  margin-left: 0;
+  gap: 50px;
 }
 
 .navbar .contact-link {
@@ -271,6 +317,14 @@ margin-bottom: 50px;
   text-decoration: none;
 }
 
+.adress {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-style: normal;
+    padding-top: 20px;
+}
+
 .footer .brand-link-web {
   color: var(--brand-color);
 }
@@ -286,6 +340,7 @@ margin-bottom: 50px;
 
 .footer {
   background-color: #2f303a;
+  height: 252px;
 }
 
 ul {
