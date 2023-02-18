@@ -50,6 +50,7 @@ border: 1px solid #EEEEEE
     justify-content: center;
     padding-top: 34px ;
     padding-left: 0;
+    padding-bottom: ;
     
 }
 
@@ -111,6 +112,7 @@ display: flex;
 gap: 30px;
 padding-bottom: 94px;
 padding-left: 0px;
+margin: 0px;
 }
 
 .team-title {
@@ -245,6 +247,7 @@ margin-bottom: 50px;
   display: flex;
   align-items: center;
   gap: 46px;
+  padding:0;
 }
 
 .navbar .navigation a {
@@ -353,6 +356,7 @@ margin-bottom: 50px;
 .footer {
   background-color: #2f303a;
   height: 252px;
+  padding-top: 60px;
 }
 
 ul {
