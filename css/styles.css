@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
 }
 
-/*Projekty - lista -> Portfolio*/ 
+/*Projekty - lista -> Portfolio*/
 
 .sub-title {
   font-weight: 400;
@@ -25,10 +25,10 @@ body {
 }
 
 .project-title {
-height: 110px;
-width: 370px;
-padding-left: 24px;
-border: 1px solid #EEEEEE
+  height: 110px;
+  width: 370px;
+  padding-left: 24px;
+  border: 1px solid #eeeeee;
 }
 
 .photo-title {
@@ -39,18 +39,17 @@ border: 1px solid #EEEEEE
   color: var(--main-color);
 }
 
-.project-img { 
-    display: block;
+.project-img {
+  display: block;
 }
 
 .projects-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    padding-top: 34px ;
-    padding-bottom:94px ;
-    
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 34px;
+  padding-bottom: 94px;
 }
 
 /*Menu Portfolio -> Portfolio*/
@@ -74,18 +73,17 @@ border: 1px solid #EEEEEE
   cursor: pointer;
 }
 
-.portfolio-menu-ul{
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    margin-top: 94px ;
+.portfolio-menu-ul {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 94px;
 }
-
 
 /*Nasz zespół -> Agencja*/
 
-.our-team-container{ 
-    background-color: #F5F4FA;
+.our-team-container {
+  background-color: #f5f4fa;
 }
 
 .name {
@@ -107,24 +105,24 @@ border: 1px solid #EEEEEE
 }
 
 .our-team-ul {
-display: flex;
-gap: 30px;
-padding-bottom: 94px;
-margin: 0px;
-justify-content: center;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 94px;
+  margin: 0px;
+  justify-content: center;
 }
 
 .team-title {
-    height: 108px;
-    width: 270px;
-    background-color: #ffffff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  height: 108px;
+  width: 270px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .img-team {
-    display: block;
+  display: block;
 }
 
 /*Czym się zajmujemy + zdjęcia -> Agencja*/
@@ -135,17 +133,17 @@ justify-content: center;
   line-height: 1.167em;
   text-align: center;
   letter-spacing: 0.03em;
-padding-bottom: 50px;
+  padding-bottom: 50px;
   color: var(--main-color);
   padding-top: 94px;
   margin: 0;
 }
 
 .img-second-title {
-    display: flex;
-    gap: 30px;
-    padding-bottom: 94px;
-    justify-content: center;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 94px;
+  justify-content: center;
 }
 
 /*Lorem Ipsum -> Agencja*/
@@ -219,16 +217,16 @@ padding-bottom: 50px;
 
 /*NAWIGACJA*/
 
-.navbar{
-border-bottom: 1px solid #ececec;}
+.navbar {
+  border-bottom: 1px solid #ececec;
+}
 
 .navbar .container {
   display: flex;
   align-items: center;
   border-color: #ffffff;
   height: 80px;
-  justify-content:space-between;
-
+  justify-content: space-between;
 }
 
 .navbar a {
@@ -244,13 +242,12 @@ border-bottom: 1px solid #ececec;}
   font-size: 26px;
   line-height: 1.192em;
   color: #000000;
-  
 }
 .navbar .navigation-ul {
   display: flex;
   align-items: center;
   gap: 46px;
-  padding:0;
+  padding: 0;
 }
 
 .navbar .navigation a {
@@ -336,11 +333,11 @@ border-bottom: 1px solid #ececec;}
 }
 
 .adress {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-    font-style: normal;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-style: normal;
+  padding-top: 20px;
 }
 
 .footer .brand-link-web {
@@ -359,7 +356,7 @@ border-bottom: 1px solid #ececec;}
 .footer {
   background-color: #2f303a;
   height: 252px;
-  padding-top:60px;
+  padding-top: 60px;
 }
 
 ul {
