@@ -217,16 +217,25 @@ body {
 
 /*NAWIGACJA*/
 
+
+.menu-left  {
+  display: flex;
+  gap: 93px;
+  align-items: center;
+}
+
+
 .navbar {
   border-bottom: 1px solid #ececec;
 }
 
 .navbar .container {
-  display: flex;
   align-items: center;
   border-color: #ffffff;
   height: 80px;
-  justify-content: space-between;
+  display: flex;
+    justify-content: space-between;
+  
 }
 
 .navbar a {
@@ -242,6 +251,7 @@ body {
   font-size: 26px;
   line-height: 1.192em;
   color: #000000;
+  height:31px;
 }
 .navbar .navigation-ul {
   display: flex;
